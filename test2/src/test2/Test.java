@@ -9,7 +9,7 @@ public class Test {
 		double cost;
 		String name;
 		
-		//initialization
+		
 		age = 17;
 		cost = 45.50;
 		name = "Jett";
