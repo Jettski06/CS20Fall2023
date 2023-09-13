@@ -1,23 +1,19 @@
 package test2;
 
+import java.util.Scanner;
+
 public class Test {
 
 	public static void main(String[] args) {
 	
-	//Declaration	
-		int age;
-		double cost;
-		String name;
+		System.out.print("welcome to computer science 20/n/n");
+
+		Scanner input = new Scanner(System.in);
+		System.out.print(" Enter your age: ");
+
+		int age = input.nextInt();
 		
-		
-		age = 17;
-		cost = 45.50;
-		name = "Jett";
-		
-		
-		
-		
-		
+		System.out.print("The age you typed is: " + age);
 		
 		
 		
@@ -25,3 +21,4 @@ public class Test {
 	}
 
 }
+//IPO
