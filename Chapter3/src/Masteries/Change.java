@@ -1,4 +1,6 @@
 
+
+
         //purpose: calculating change
 		//
 		//author: Jett Bachmann
@@ -21,7 +23,7 @@ public class Change
 		System.out.println("Must be less than 1.00$"); } 
 		
 		//amounts for all the coins
-		int cents = (int) (amount * 100);// changes dollars into cents
+		int cents = (int) (amount * 100);
 		int quarters = cents / 25;
 		cents %= 25;
 				
@@ -33,7 +35,7 @@ public class Change
 		
 		int pennies = cents / 1;
 		cents %= 1;
-		
+		// prints the amount of each coin based on the users input
 		System.out.println("minimum required coins");
 		System.out.println("Quarters: " + quarters);
 		System.out.println("dimes: " + dimes);
@@ -42,3 +44,16 @@ public class Change
 		System.out.println("total");
 	}
 }
+/*
+Screen dump
+
+enter an amount less than 1.00$: 0.97
+minimum required coins
+Quarters: 3
+dimes: 2
+nickels: 0
+pennies: 2
+total
+
+
+*/
