@@ -18,12 +18,20 @@ public class guessingGame
 	
 	System.out.println("welcome to java guessing game");
 	System.out.println("you will pick a number between 1-20 and try to guess the correct answer!");
+    System.out.println("enter your guess: ");
+    int guess = scanner.nextInt();
 	
-    
 	
 	
-	
-	if(perAnswer = secretNumber);
+	if (guess == secretNumber) {
 	System.out.println("congrats you got it");
+	} else { 
+		{ System.out.println("sorry thats not right nigga");
+			
+		}
+	}
+	
+	
+	
 	}
    }
