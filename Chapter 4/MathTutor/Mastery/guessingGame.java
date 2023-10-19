@@ -6,7 +6,6 @@ import java. util.Scanner;
 
 public class guessingGame 
 {
-	
 	public static void main(String[] args) 
 	{
 	
@@ -25,7 +24,7 @@ public class guessingGame
 	
 	
 	if(perAnswer = secretNumber) {
-	System.out.println("you got it!");
+	System.out.println("you got it!"); // will tell you if the answer is right or wrong
 	}
 	
 	else (perAnswer > secterNumber) {
@@ -33,8 +32,8 @@ public class guessingGame
 	}
 
 	else (perAnswer < secterNumber) {
-		System.out.println("sorry, thats incorrect");
-		}
+		System.out.println("sorry, that is incorrect");
+	}             
 	
 	}
 }
