@@ -23,17 +23,7 @@ public class guessingGame
 	
 	
 	
-	if(perAnswer = secretNumber) {
-	System.out.println("you got it!"); // will tell you if the answer is right or wrong
+	if(perAnswer = secretNumber);
+	System.out.println("congrats you got it");
 	}
-	
-	else (perAnswer > secterNumber) {
-	System.out.println("sorry, thats incorrect");
-	}
-
-	else (perAnswer < secterNumber) {
-		System.out.println("sorry, that is incorrect");
-	}             
-	
-	}
-}
+   }
